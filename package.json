@@ -1,0 +1,14 @@
+{ "name" : "moya"
+, "description" : "Web Server."
+, "tags" : ["http", "simple", "server"]
+, "version" : "0.3.0"
+, "author" : "Mikeal Rogers <mikeal.rogers@gmail.com>"
+, "repository" :
+  { "type" : "git"
+  , "url" : "http://github.com/mikeal/moya.git"
+  }
+, "bugs" :
+  { "web" : "http://github.com/mikeal/moya/issues" }
+, "engines" : ["node >=0.1.90"]
+, "main" : "./main"
+}
