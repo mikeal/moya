@@ -1,0 +1,11 @@
+{
+    "vhosts" : {
+      "test1.domain.com" : { "directory" : "/Users/mikeal/Documents/tmp" }
+    , "test2.domain.com" : { "proxy_pass" : { "port":8888, "host":"localhost" } }
+  }
+  , "locations" : {
+      "/test1" : { "directory" : "/Users/mikeal/Documents/tmp" }
+    , "/test2" : { "proxy_pass" : { "port":8888, "host":"localhost" } }
+  }
+  , "http_port" : 8080
+}
